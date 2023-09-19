@@ -1,4 +1,35 @@
 body {
     background-image: url("./bg-intro-desktop.png");
     background-color: #ff070775;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 1120px;
+    height: 500px;
+    margin: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.first h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    text-align: inherit;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
 }
