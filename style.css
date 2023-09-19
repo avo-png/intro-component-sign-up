@@ -1,3 +1,4 @@
 body {
-    background-image: url("file:///Users/zylos/Desktop/ehome/intro-component-sign-up/bg-intro-desktop.png");
+    background-image: url("./bg-intro-desktop.png");
+    background-color: #ff070775;
 }
