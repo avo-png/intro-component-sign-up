@@ -75,3 +75,10 @@ form p {
     font-size: 10px;
     text-align: center;
 }
+
+@media (max-width: 480px) {
+    form p {
+        font-size: 12px;
+        text-align: center;
+    }
+}
