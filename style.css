@@ -2,6 +2,9 @@ body {
     background-image: url("./bg-intro-desktop.png");
     background-color: #ff070775;
     font-family: 'Poppins', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 main {
@@ -76,9 +79,35 @@ form p {
     text-align: center;
 }
 
-@media (max-width: 480px) {
-    form p {
+@media only screen and (max-width: 767px) {
+    main {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    section {
+        width: 100%;
+        padding: 20px;
+        display: block;
+    }
+    
+    .first h1 {
+        font-size: 25px;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    section.first {
+        margin-top: 3em;
+    }
+    
+    h2 {
         font-size: 12px;
         text-align: center;
+    }
+    
+    .second h1 {
+        font-size: 12px;
     }
 }
